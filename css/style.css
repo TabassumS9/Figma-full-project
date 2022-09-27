@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+.align-end{
+    align-items: flex-end;
+}
+a{
+    text-decoration: none;
+}
+.root{
+    --maincolor:#F8991C;
+
+}
+.button{
+    margin: 35px 0 ;
+    text-align: center;
+    display: block;
+    width: 139px;
+    height: 37px;
+    line-height: 37px;
+    left: 202px;
+    top: 475px;
+    background: #F8991C;
+    border-radius: 6px;
+    color:#FFFFFF;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+/* Start Nav Section CSS */
+nav .logo{
+    width: 30%;
+}
+nav .menu{
+    width: 70%;
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+    transition: 0.5s;
+}
+nav .menu ul li a{
+    padding: 40px;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+/* Ends Nav Section CSS */
+/* Start Banner Section CSS */
+#banner{
+    background-color:#F8F8F8;
+    height: 659px;
+}
+#banner .banner_text{
+    width: 60%;
+}
+#banner .banner_text h2{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+
+}
+#banner .banner_text h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 61px;
+    text-align: left;
+
+}
+#banner .banner_text .social{
+    margin-top: 130px;
+}
+#banner .banner_text .social ul li{
+    display: inline-block;
+}
+#banner .banner_text .social ul{
+    margin-left: 120px;
+}
+#banner .banner_text .social ul li a{
+    font-size: 24px;
+    margin-left: 15px;
+}
+#banner .banner_text .social ul li .a1{
+    left: 24.31%;
+    right: 74.04%;
+    top: 15.8%;
+    bottom: 83.6%;
+    color: #4267B2;
+}
+#banner .banner_text .social ul li .a2{
+    left: 27.22%;
+    right: 72.26%;
+    top: 16.02%;
+    bottom: 83.79%;
+    color: #3F729B;
+}
+#banner .banner_text .social ul li .a3{
+    left: 29.02%;
+    right: 69.24%;
+    top: 15.77%;
+    bottom: 83.59%;
+    color: #0072B1;
+}
+
+#banner .banner_img{
+    width: 40%;
+    position: relative;
+}
+#banner .banner_img .ell{
+    margin: 20px 0 0 105px ;
+}
+#banner .banner_img span{
+    background-color: #C4C4C4;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+}
+/* Ends Banner Section CSS */
+/* Start About Section CSS */
+#about{
+    padding: 70px 0;
+}
+#about .about_img{
+    width: 40%;
+    height: 316px;
+    filter: drop-shadow(5px 2px 3px rgba(0, 0, 0, 0.25));
+}
+#about .about_text{
+    width: 60%;
+}
+
+#about .about_text h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F8991C;
+}
+#about .about_text h2{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+}
+#about .about_text p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: justify;
+    padding-top: 30px ;
+
+}
+#about .about_text a{
+    display: inline-block;
+    
+}
+#about .about_text .button{
+    width: 180px;
+    height: 40px;
+}
+#about .about_text a .btn{
+    margin: 30px;
+}
+#about .about_text .btn{
+    margin: 0 60px 20px;
+}
+#about .about_text .btn{
+    background-color: white;
+    color: black;
+    border: 1px solid #F8991C;
+
+}
+#about .about_text img{
+    margin: 20px 0;
+}
+#about .about_text .img-2{
+    margin-left: 150px;
+}
+/* Ends About Section CSS */
+/* Start Specializing Section Css */
+.heading h4{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F8991C;
+}
+.heading h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+}
+#special{
+    background-color: #F8F8F8;
+    padding: 54px 0 80px 0;
+}
+
+#special .ux_design{
+    width: calc(33.33% - 74px);
+    margin: 0 37px;
+    left: 244px;
+    top: 1506px;
+    text-align: center;
+    padding-top: 20px;
+}
+#special .ux_design h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #F8991C;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#special .ux_design p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+#special .graphics img{
+    height: 210px;
+    left: 244px;
+    top: 1406px;
+    text-align: center;
+}
+#special .graphics h3{
+    padding-top: 15px;
+}
+#special .logo img{
+    height: 210px;
+    left: 244px;
+    top: 1406px;
+    text-align: center;
+}
+#special .logo h3{
+    padding-top: 15px;
+}
+#education{
+    padding: 50px 0 104px 0;
+}
+#education .heading{
+    padding-bottom: 70px;
+}
+#education .education_card{
+    /* width: calc(33.33% - 60px); */
+    width: 316px;
+    height: 212px;
+    margin: 0 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+}
+#education .education_card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #000000;
+}
+#education .education_card span{
+    color: #F8991C;
+}
+/* Ends Specializing Section Css */
+/* Start Work Section Css */
+#work{
+    padding: 45px 0 70px 0;
+    background-color: #F8F8F8;
+}
+#work .work_card{
+    width: calc(25% - 60px);
+    margin: 0 30px;
+    margin-right: 15px;
+    padding-top: 40px ;
+    transition: 0.5s;
+}
+#work .work_card img{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#work .work_card:hover img{
+    transform: scale(0.5);
+}
+/* Ends Work Section Css */
+/* Start Client Section Css */
+#client{
+    padding: 92px 0;
+    position: relative;
+}
+#client .heading{
+    padding-bottom: 54px;
+    
+}
+#client .heading span{
+    width: 60px;
+    height: 36px;
+    line-height: 36px;
+    background: rgba(248, 153, 28, 0.5);;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 90%;
+    top: 100px;
+    opacity: 0;
+    visibility: hidden;
+}
+#client .heading .span-2{
+    width: 60px;
+    height: 36px;
+    line-height: 36px;
+    background: #F8991C;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 1080px;
+    opacity: 0;
+    visibility: hidden;
+
+}
+#client .heading:hover span{
+    opacity: 1;
+    visibility: visible;
+}
+#client .client_card{
+    width: calc(50% - 50px);
+    margin: 0 25px;
+    padding: 35px;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+}
+.client_card .img{
+    width: 20%;
+}
+.client_card .img img{
+    width: 100%;
+    display: block;
+}
+.client_card .text{
+    width: 80%;
+    padding-left: 16px;
+}
+.client_card .text h5{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+}
+.client_card .text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+.client_card .second_text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    padding-top:20px;
+    padding-right: 35px;
+}
+/* Ends Client Section Css */
+#blog{
+    background: #F8F8F8;
+    padding-bottom: 60px;
+}
+#blog .heading{
+    padding: 53px 0;
+}
+.blog_card{
+    width: calc(33.33% - 30px);
+    margin: 0 15px;
+}
+.blog_card img{
+    width: 100%;
+    display: block;
+}
+.blog_card .text{
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+}
+.blog_card .text h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+.blog_card .text p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    color: #000000;
+    padding: 10px 0;
+}
+.blog_card .text a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    text-align: center;
+    display: block;
+}
